@@ -56,7 +56,7 @@
 		71221B92213035F6005455E3 /* AppDelegate_swift4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate_swift4.swift; sourceTree = "<group>"; };
 		7136748E20E3E97E006F45D1 /* RLMSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RLMSupport.swift; path = "Carthage/Checkouts/realm-cocoa/Realm/Swift/RLMSupport.swift"; sourceTree = "<group>"; };
 		71912893202E1B8900CAEB29 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
-		71C97537202E1153005FF7A3 /* RLMArraySequence 4.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RLMArraySequence 4.1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C97537202E1153005FF7A3 /* RLMArraySequence 4.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RLMArraySequence 4.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71C9753A202E1153005FF7A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71C9753C202E1153005FF7A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		71C9753F202E1153005FF7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		71C97538202E1153005FF7A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71C97537202E1153005FF7A3 /* RLMArraySequence 4.1.app */,
+				71C97537202E1153005FF7A3 /* RLMArraySequence 4.2.app */,
 				71C9756A202E133E005FF7A3 /* RLMArraySequence 3.2.app */,
 			);
 			name = Products;
@@ -136,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71C97536202E1153005FF7A3 /* RLMArraySequence 4.1 */ = {
+		71C97536202E1153005FF7A3 /* RLMArraySequence 4.2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71C97549202E1153005FF7A3 /* Build configuration list for PBXNativeTarget "RLMArraySequence 4.1" */;
+			buildConfigurationList = 71C97549202E1153005FF7A3 /* Build configuration list for PBXNativeTarget "RLMArraySequence 4.2" */;
 			buildPhases = (
 				71C97533202E1153005FF7A3 /* Sources */,
 				71C97534202E1153005FF7A3 /* Frameworks */,
@@ -149,9 +149,9 @@
 			);
 			dependencies = (
 			);
-			name = "RLMArraySequence 4.1";
+			name = "RLMArraySequence 4.2";
 			productName = RLMArraySequence;
-			productReference = 71C97537202E1153005FF7A3 /* RLMArraySequence 4.1.app */;
+			productReference = 71C97537202E1153005FF7A3 /* RLMArraySequence 4.2.app */;
 			productType = "com.apple.product-type.application";
 		};
 		71C9755B202E133E005FF7A3 /* RLMArraySequence 3.2 */ = {
@@ -205,7 +205,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71C97536202E1153005FF7A3 /* RLMArraySequence 4.1 */,
+				71C97536202E1153005FF7A3 /* RLMArraySequence 4.2 */,
 				71C9755B202E133E005FF7A3 /* RLMArraySequence 3.2 */,
 			);
 		};
@@ -396,21 +396,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3JN3X2NZJ;
+				DEVELOPMENT_TEAM = D59K78RVRU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/RLMArraySequence/realm-objc-3.1.1/ios/dynamic",
-					"$(PROJECT_DIR)/RLMArraySequence/realm-objc-3.1.1/ios/static",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = RLMArraySequence/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kolibree.RLMArraySequence;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RLMArraySequence;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "RLMArraySequence/RLMArraySequence-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -421,20 +419,18 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3JN3X2NZJ;
+				DEVELOPMENT_TEAM = D59K78RVRU;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/RLMArraySequence/realm-objc-3.1.1/ios/dynamic",
-					"$(PROJECT_DIR)/RLMArraySequence/realm-objc-3.1.1/ios/static",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = RLMArraySequence/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kolibree.RLMArraySequence;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.RLMArraySequence;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "RLMArraySequence/RLMArraySequence-Bridging-Header.h";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -494,7 +490,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71C97549202E1153005FF7A3 /* Build configuration list for PBXNativeTarget "RLMArraySequence 4.1" */ = {
+		71C97549202E1153005FF7A3 /* Build configuration list for PBXNativeTarget "RLMArraySequence 4.2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71C9754A202E1153005FF7A3 /* Debug */,

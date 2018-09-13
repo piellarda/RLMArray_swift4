@@ -13,6 +13,9 @@ class ViewController: UIViewController {
         for profile in account.profiles {
             debugPrint(profile)
         }
+        account.profiles.forEach { (element) in
+            debugPrint(element)
+        }
     }
 
 }
